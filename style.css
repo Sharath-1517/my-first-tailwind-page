@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .width_container {
+        width: min(96%, 900px);
+        margin: 0 auto;
+    }
+
+    .input_width {
+        width: min(500px, 100%);
+    }
+
+}
